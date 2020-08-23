@@ -2,5 +2,9 @@
   {
     "outputFile": "wwwroot/css/FormsAndControls.css",
     "inputFile": "wwwroot/css/FormsAndControls.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/MainApp.css",
+    "inputFile": "wwwroot/css/MainApp.scss"
   }
 ]

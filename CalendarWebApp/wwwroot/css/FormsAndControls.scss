@@ -20,14 +20,35 @@ $act-danger: #C96976;
 $base-black: black;
 $base-white: #ffffff;
 
+$background-init: #F89925;
+
+
 /*Body*/
 body {
-    background-image: url("../img/nodeArt.png");
+    /*    background-image: url("../img/nodeArt.png");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 30%;
-    background-color: #d2e1ed;
+    background-color: #d2e1ed;*/
+    background: radial-gradient(circle, rgba(80,36,36,1) 0%, rgba(161,122,184,1) 22%, rgba(200,128,83,1) 46%, rgba(15,22,20,1) 85%);
 }
+
+footer {
+    color: $base-white;
+}
+
+.background-overlay-init {
+    display: block;
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    background-image: url("../img/icos.png");
+    background-size: 80vh;
+    background-repeat:  no-repeat;
+    background-position:center;
+    
+}
+
 
 /*Common elements*/
 .btn {
@@ -124,23 +145,23 @@ body {
     justify-content: center;
     align-items: center;
     align-content: stretch;
-    margin-top: 25%;
 
     .loginBox {
         margin-left: auto;
         margin-right: auto;
         border: 1px solid black;
         border-radius: 4px;
-        background-color: $base-white;
+        background-color: rgba(255, 255, 255, 0.90);
+        padding: 20px 15px 20px 15px;
 
         #loginForm {
-            padding: 22px 15px 5px 15px;
 
             .form-control-container {
+
                 display: flex;
                 justify-content: flex-end;
                 align-items: center;
-                margin-bottom: 5px;
+
                 #signupLink {
                     padding: 0 10px 0 10px; 
                 }
@@ -151,6 +172,12 @@ body {
             }
         }
     }
+}
+
+#welcomeMessage {
+    margin-top: 25%;
+    font-weight:600;
+    color: $base-white;
 }
 
 .button-container {

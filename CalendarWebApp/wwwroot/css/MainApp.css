@@ -1,0 +1,13 @@
+﻿.background-overlay-init {
+  background-color: white !important; }
+
+/*This sets up main container in wich appp control will be situated
+    This is not ideal solution, becouse of nested containers. However for this simple
+    app it is not that big deal, becouse there will be only few view pages.
+*/
+.app-container {
+  display: block;
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  background-color: rgba(255, 255, 255, 0.8); }

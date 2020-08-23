@@ -2,11 +2,22 @@
     ViewData["Title"] = "Home Page";
 }
 
+@section Styles{
+    <link rel="stylesheet" href="~/css/FormsAndControls.css" />
+}
+<div class="body-ovelay">
+
+</div>
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    @await Component.InvokeAsync("Login", new
-{
-    ratingControlType = "1to10"
-})
+    <div class="login-container">
+        @await Component.InvokeAsync("Login")
+    </div>
+    <div class="button-container">
+        <button type="button" class="btn btn-wa-light">WA Light</button>
+        <button type="button" class="btn btn-wa-dark">WA Dark</button>
+        <button type="button" class="btn btn-wa-success">WA Success</button>
+        <button type="button" class="btn btn-wa-warning">WA Warning</button>
+        <button type="button" class="btn btn-wa-danger">WA Danger</button>
+    </div>
 </div>

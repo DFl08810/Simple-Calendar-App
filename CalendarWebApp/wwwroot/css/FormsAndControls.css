@@ -1,0 +1,111 @@
+﻿/*Body*/
+body {
+  background-image: url("../img/nodeArt.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 30%;
+  background-color: #d2e1ed; }
+
+/*Common elements*/
+.btn {
+  font-weight: 500; }
+
+.btn-wa-light {
+  color: #ffffff;
+  background-color: #2C8CB5;
+  border: 1px solid black; }
+
+.btn-wa-light:hover {
+  background-color: #287FA4;
+  -webkit-box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.16); }
+
+.btn-wa-light:active {
+  background-color: #3098C5; }
+
+.btn-wa-dark {
+  color: #ffffff;
+  background-color: #54728C;
+  border: 1px solid black; }
+
+.btn-wa-dark:hover {
+  background-color: #4D6880;
+  -webkit-box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.16); }
+
+.btn-wa-dark:active {
+  background-color: #5C7C99; }
+
+.btn-wa-success {
+  color: black;
+  background-color: #90BE6D;
+  border: 1px solid black; }
+
+.btn-wa-success:hover {
+  background-color: #89B964;
+  -webkit-box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.16); }
+
+.btn-wa-success:active {
+  background-color: #9FC680; }
+
+.btn-wa-warning {
+  color: black;
+  background-color: #F9A339;
+  border: 1px solid black; }
+
+.btn-wa-warning:hover {
+  background-color: #F89925;
+  -webkit-box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.16); }
+
+.btn-wa-warning:active {
+  background-color: #F9AC4D; }
+
+.btn-wa-danger {
+  color: #ffffff;
+  background-color: #c15361;
+  border: 1px solid black; }
+
+.btn-wa-danger:hover {
+  background-color: #BE4B5A;
+  -webkit-box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.16); }
+
+.btn-wa-danger:active {
+  background-color: #C96976; }
+
+.login-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  margin-top: 25%; }
+  .login-container .loginBox {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #ffffff; }
+    .login-container .loginBox #loginForm {
+      padding: 22px 15px 5px 15px; }
+      .login-container .loginBox #loginForm .form-control-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 5px; }
+        .login-container .loginBox #loginForm .form-control-container #signupLink {
+          padding: 0 10px 0 10px; }
+      .login-container .loginBox #loginForm .input-group-text {
+        width: 8rem; }
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  padding: 50px 0 50px 0; }

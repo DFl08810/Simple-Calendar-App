@@ -5,7 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Auth\" />
+    <Content Remove="compilerconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="compilerconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\img\" />
   </ItemGroup>
 
 </Project>

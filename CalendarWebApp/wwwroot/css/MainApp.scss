@@ -1,4 +1,8 @@
 ﻿
+body {
+    background: white !important;
+}
+
 .background-overlay-init {
     background-color: white !important;
 }
@@ -6,10 +10,41 @@
     This is not ideal solution, becouse of nested containers. However for this simple
     app it is not that big deal, becouse there will be only few view pages.
 */
+/*This style is used for displaying grid and controls for grid menu*/
 .app-container {
-    display:block;
+    display: block;
     position: absolute;
     min-height: 100%;
     min-width: 100%;
     background-color: rgba(255, 255, 255, 0.8);
+
+    .data-grid {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin: 10% 0 10% 0;
+        padding: 0 20% 0 20%;
+
+        @media(max-width: 1400px) {
+            padding: 0 10% 0 10%;
+        }
+
+        .app-grid-week {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: stretch;
+            align-content: center;
+            width: 100%;
+
+            .app-grid-day {
+                border: 1px solid black;
+                width: 100%;
+                height: 90px;
+            }
+        }
+    }
 }

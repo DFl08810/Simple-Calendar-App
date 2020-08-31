@@ -62,19 +62,28 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+
+/*covers whole viewport and contains every element of page*/
+.page-container {
+    position: relative;
+    min-height: 100%;
+}
+
+/*content-wrapper ensures propper footer rendering by setting padding of footer height */
+.content-wrapper {
+    padding-bottom: 2.5rem;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+  height: 2.5rem;
   white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+  /*line-height: 60px;*/ /* Vertically center the text there */
 }
 
     .footer #copyrightNotice{
-        color: white;
+        color: black;
     }
 
-#initContainer {
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
-}

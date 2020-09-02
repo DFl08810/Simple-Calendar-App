@@ -5,14 +5,14 @@
 @section Styles{
     <link rel="stylesheet" href="~/css/FormsAndControls.css" />
 }
-<div class="body-ovelay">
 
-</div>
-<div class="text-center">
+<div class="text-center" id="welcomeContainer">
     <h1 class="display-4" id="welcomeMessage">Welcome</h1>
-    <div class="login-container">
-        @await Component.InvokeAsync("Login")
-    </div>
+</div>
+
+<div class="login-container">
+    @await Component.InvokeAsync("Login")
+
     @*<div class="button-container">
         <button type="button" class="btn btn-wa-light">WA Light</button>
         <button type="button" class="btn btn-wa-dark">WA Dark</button>

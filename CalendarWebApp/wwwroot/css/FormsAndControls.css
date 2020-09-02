@@ -5,7 +5,10 @@ body {
     background-position: top left;
     background-size: 30%;
     background-color: #d2e1ed;*/
-  background: radial-gradient(circle, #502424 0%, #a17ab8 22%, #c88053 46%, #0f1614 85%); }
+  /*    background: radial-gradient(circle, rgba(80,36,36,1) 0%, rgba(161,122,184,1) 22%, rgba(200,128,83,1) 46%, rgba(15,22,20,1) 85%);
+
+*/
+  background-color: #54728C; }
 
 footer {
   color: #ffffff; }
@@ -85,7 +88,8 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  align-content: stretch; }
+  align-content: stretch;
+  margin: 5% 0 5% 0; }
   .login-container .loginBox {
     margin-left: auto;
     margin-right: auto;
@@ -102,8 +106,10 @@ footer {
     .login-container .loginBox #loginForm .input-group-text {
       width: 8rem; }
 
+#welcomeContainer {
+  margin-top: 20vh; }
+
 #welcomeMessage {
-  margin-top: 25%;
   font-weight: 600;
   color: #ffffff; }
 
